@@ -12,7 +12,7 @@ Purpose: generates a tabular sales report and sales summary report
 int main() {
     // Open the input file for reading
     FILE *file;
-    file = fopen("lab_5/sales_data.txt", "r");
+    file = fopen("sales_data.txt", "r");
     if (file == NULL) {
         printf("Error: Unable to open input file.\n");
         return 1;
